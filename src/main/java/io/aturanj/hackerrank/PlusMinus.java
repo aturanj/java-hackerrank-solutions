@@ -11,14 +11,14 @@ import java.util.stream.Stream;
 /*
  * https://www.hackerrank.com/challenges/one-week-preparation-kit-plus-minus
  */
-class Result {
+class ResultPlusMinus {
 
     /*
      * Complete the 'plusMinus' function below.
      *
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
-    public static void plusMinus(List<Integer> arr) {
+    public void plusMinus(List<Integer> arr) {
 
         var map = new HashMap<String, Integer>();
 
@@ -50,7 +50,8 @@ public class PlusMinus {
                 .map(Integer::parseInt)
                 .collect(toList());
 
-        Result.plusMinus(arr);
+        var result = new ResultPlusMinus();
+        result.plusMinus(arr);
 
         bufferedReader.close();
     }
