@@ -1,6 +1,3 @@
-/*
- * https://www.hackerrank.com/challenges/one-week-preparation-kit-time-conversion/
- */
 package io.aturanj.hackerrank;
 
 import java.io.BufferedReader;
@@ -10,8 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- *
- * @author work
+ * https://www.hackerrank.com/challenges/one-week-preparation-kit-time-conversion/
  */
 class TimeConversionResult {
 
