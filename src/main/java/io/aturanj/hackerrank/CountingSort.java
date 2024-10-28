@@ -1,6 +1,5 @@
 package io.aturanj.hackerrank;
 
-import io.aturanj.hackerrank.LonelyInteger.Result;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
